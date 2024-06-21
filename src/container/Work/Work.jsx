@@ -12,6 +12,8 @@ import project5 from "../../assets/project/project5.png";
 import project6 from "../../assets/project/project6.png";
 import project7 from "../../assets/project/project7.png";
 import project8 from "../../assets/project/project8.png";
+import project9 from "../../assets/project/project9.png";
+import project10 from "../../assets/project/project10.png";
 // Simulated works data
 const worksData = [
   {
@@ -40,6 +42,15 @@ const worksData = [
     imgUrl: project3,
     projectLink: "",
     codeLink: "https://github.com/divyansraj/Ecommerce-Backend",
+  },
+  {
+    title: "FoodHub-react-app",
+    description:
+      "FoodHub is a dynamic web app using React.js, Redux, Tailwind CSS, and Swiggy APIs. It features real-time restaurant data, responsive UI, filtered search, lazy loading, and reusable components for optimal performance.",
+    tags: ["Web App"],
+    imgUrl: project10,
+    projectLink: "https://food-hub-food-app.vercel.app/",
+    codeLink: "https://github.com/divyansraj/FoodHub-Food-App",
   },
   {
     title: "Password Generator",
@@ -85,6 +96,15 @@ const worksData = [
     imgUrl: project8,
     projectLink: "https://divyansraj.github.io/Share-Modal/",
     codeLink: "https://github.com/divyansraj/Share-Modal",
+  },
+  {
+    title: "Razorpay - UI Clone",
+    description:
+      "A Razorpay UI clone built with HTML and Tailwind CSS, replicating the sleek and responsive design of the original payment platform.",
+    tags: ["Mini Project"],
+    imgUrl: project9,
+    projectLink: "https://razorpay-clone-rouge.vercel.app/",
+    codeLink: "https://github.com/divyansraj/razorpay-clone",
   },
   // Add more works as needed
 ];

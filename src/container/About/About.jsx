@@ -3,7 +3,7 @@ import "./About.scss";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { motion } from "framer-motion";
 import { images } from "../../constants";
- import resume from "../../assets/project/resume.txt";
+ import resume from "../../assets/project/Resume.pdf";
 const About = () => {
 const [resumeUrl, setResumeUrl] = useState(resume);
 

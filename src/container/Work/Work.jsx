@@ -4,6 +4,7 @@ import { AppWrap, MotionWrap } from "../../wrapper";
 import { motion } from "framer-motion";
 import { AiOutlineExport, AiFillGithub } from "react-icons/ai";
 
+import project0 from "../../assets/project/project0.png";
 import project1 from "../../assets/project/project1.png";
 import project2 from "../../assets/project/project2.png";
 import project3 from "../../assets/project/project3.png";
@@ -16,6 +17,16 @@ import project9 from "../../assets/project/project9.png";
 import project10 from "../../assets/project/project10.png";
 // Simulated works data
 const worksData = [
+  {
+    title: "CodeCollab - Realtime Sharing",
+    description:
+      "CodeCollab is a real-time code-sharing platform that enables synchronized collaboration among users. Built with React and Socket.io, it supports multiple programming languages and features live code compiling. The intuitive UI ensures a seamless coding experience for all users.",
+    tags: ["Web App"],
+    imgUrl: project0,
+    projectLink:
+      "https://www.linkedin.com/posts/divyanshu-kr_webdevelopment-react-socketio-activity-7259534324469751809-Y5k4?",
+    codeLink: "https://github.com/divyansraj/CodeShare",
+  },
   {
     title: "Foodio - Food App",
     description:

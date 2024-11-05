@@ -139,3 +139,28 @@
 }
 
 
+
+.app__footer-links {
+  margin-bottom: 1.5rem;
+}
+
+.app__footer-links-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.app__footer-links-list li {
+  margin: 0 1rem; // Spacing between icons
+}
+
+.footer-icon {
+  font-size: 2rem; // Size of the icons
+  color: #007bff; // Default color for the icons
+  transition: color 0.3s;
+
+  &:hover {
+    color: #0056b3; // Change color on hover
+  }
+}

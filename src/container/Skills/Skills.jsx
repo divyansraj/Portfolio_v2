@@ -61,17 +61,17 @@ const Skills = () => {
           // Simulate fetching experiences data
           const experiencesData = [
             {
-              year: "2023",
+              year: "",
               works: [
                 {
-                  name: "Work 1",
-                  company: "Company A",
-                  desc: "Work 1 description",
+                  // name: "Work 1",
+                  // company: "Company A",
+                  // desc: "Work 1 description",
                 },
                 {
-                  name: "Work 2",
-                  company: "Company B",
-                  desc: "Work 2 description",
+                  // name: "Work 2",
+                  // company: "Company B",
+                  // desc: "Work 2 description",
                 },
                 // Add more work experiences as needed
               ],

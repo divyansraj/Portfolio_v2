@@ -61,12 +61,12 @@ const Skills = () => {
           // Simulate fetching experiences data
           const experiencesData = [
             {
-              year: "",
+              year: "2024",
               works: [
                 {
-                  // name: "Work 1",
-                  // company: "Company A",
-                  // desc: "Work 1 description",
+                  name: "Desi QnA",
+                  company: "MERN Developer Intern",
+                  desc: "Worked on the design and development of a fully responsive webpage for a particular section of Desi QnA. Implemented user verification and authentication processes, tackling engineering challenges to detect and remove fake bots and posts",
                 },
                 {
                   // name: "Work 2",
